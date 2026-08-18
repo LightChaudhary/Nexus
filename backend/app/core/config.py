@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     PROJECT_NAME: str = "Nexus"
     VERSION: str = "0.1.0"
     ENVIRONMENT: str = "local"
-    API_KEY_PREFIX: str = "/api/v1"
+    API_V1_PREFIX: str = "/api/v1"
     DEBUG: bool = True
 
     # It tells Pydantic Settings how configuration loading should behave.
